@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+             A{text-decoration: none;} 
+            body {background-color: rgb(12, 12, 12);}
+         * {
+                box-sizing: border-box;
+            }
+        </style>
+        <link rel="stylesheet" href="first.css">
+        <title>My health</title>
+    </head>
+  <body>
+     <div class="icon">
+        <img src="icon.png" >
+     </div>
+
+     <div class="num">
+       <p><b>Emergency no<br>Toll free:-107</b></p>
+     </div>
+
+     <div class="head2">
+       <h3>India's largest patient record platform and services </h3>
+     </div>
+     <br>
+     <hr>
+
+     <div class="login_interface">
+        <h2>User Login:</h2>
+        <form class="login_form" action="patitent_login.html" method="POST" name="form" onsubmit="return validated()">
+            <label for="mail_id">User ID:</label><br>
+            <input type="text" name="mail_id" id="mail_id"><br><br>
+            <label for="pass">Password:</label><br>
+            <input type="password" name="pass" id="pass"><br><br><br>
+            <button type="submit">Submit</button>
+        </form>
+
+     </div>
+     <script src="login_interface.js"></script>
+     
+
+  </body>
+</html>

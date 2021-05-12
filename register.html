@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            A{text-decoration: none;}
+            body {background-color: rgb(12, 12, 12);}
+         * {
+                box-sizing: border-box;
+            }
+        </style>
+        <link rel="stylesheet" href="first.css">
+            <title>My health</title>
+    </head>
+    <body>
+        <div class="icon">
+            <img src="icon.png" >
+        </div>
+        <div class="num">
+           <p>Emergency no:<br>Toll free:-107</p>
+        </div>
+       <div class="head2">
+           <h3>India's largest patient record platform and services </h3>
+       </div>
+       <div class="social_1">
+           <img src="social.jpg">
+       </div>
+       <div class="social_2">
+        <p>Talk to us on<br> social media</p>
+    </div>
+       <div class="head1">
+        <marquee width= 50% direction="right" height="70px"><h2>All India hospital database</h2></marquee>
+       </div>
+       <div class="navbar">
+        <a href="first.htm"><li>Home</li></a>
+        <a href="notice.html"><li>Notice</li></a>
+        <li>Contacts</li>
+        <li>About</li>
+        
+    </div>
+    <div class="navbar_2">
+        <a class="active" href="register.html">Patient</a>
+        <a href="doctor.html">Doctor</a>
+        <a href="hospital.html">Hospital</a>
+        <a href="staff.html">Staff</a>
+    </div>
+    <div class ="registration">
+        <h3>Paitents's Registration</h3>
+        <p>Field marked with * are compulsory to fill.</p><br>
+        <form class="paitent_reg" name="form" action="registration_success.html" method="post" onsubmit="return validated()">
+            <label for="mail_id">Email ID:*</label><br>
+            <input type="email" id="mail_id" name="mail_id"><br><br>
+            <label for="name">Your Name:*</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="sex">Sex:*</label><br>
+            <input type="text" id="sex" name="sex"><br><br>
+            <label for="city">City:*</label><br>
+            <input type="text" id="city" name="city"><br><br>
+            <label for="address">Address:*</label><br>
+            <input type="text" id="address" name="address"><br><br>
+            <label for="aadhar">Aadhar no:*</label><br>
+            <input type="number" id="aadhar" name="aadhar"><br><br>
+            <label for="DOB">Dtae of Birth:*</label><br>
+            <input type="date" id="DOB" name="DOB"><br><br>
+            <label for="mobno">Mobile no:*</label><br>
+            <input type="number" id="mobno" name="mobno"><br><br>
+            <label for="blood">Blood Group:*</label><br>
+            <input type="text" name="blood" id="blood"><br><br>
+            <label for="password">Create Password:*</label><br>
+            <input type="password" name="password" id="password"><br><br>
+            <label for="con_pass">Confirm Password:*</label><br>
+            <input type="password" name="con_pass" id="con_pass"><br><br><br>
+            <button type="submit" style="padding: 5px 5px;">Submit</button>
+        </form>
+        
+
+    </div>
+    <script src="paitent_reg_val.js"></script>
+
+    </body>
+</html>

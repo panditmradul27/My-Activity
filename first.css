@@ -1,0 +1,429 @@
+.head1{
+    font-size:x-large;
+    font-style: oblique;
+    color: rgb(12, 13, 14);
+    background-color: rgb(32, 105, 201);
+    margin-top: 15  px;
+    padding-left: 10px;
+
+}
+.head2{
+    font-size: larger;
+    font-style: inherit;
+    margin-right:initial;
+    text-align:center;
+    margin-top: 1px;
+    width: 87%;
+    color: white;
+    font-weight: bolder;
+}
+.icon img{
+    width: 4%;
+    float: left;
+    margin-bottom: 7px;
+    height: 45px;
+    margin-top: 0px;
+}
+.num{
+    width: 9%;
+    float: right;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    color: rgb(230, 7, 7);
+    font-size: larger;
+}
+.navbar_2 a:hover {
+    background-color: rgb(177, 175, 175);
+    border: rgb(59, 59, 59);
+    border-style: solid;
+    color: black;
+    font-weight: bolder
+}
+.navbar_2 a {
+    background-color: rgb(59, 59, 59);
+    font-size: larger;
+    padding:20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+.navbar_2{
+    margin-top: 27px;
+    float:left;
+    margin-left: 20px;
+}
+.navbar_2 a.active{
+    background-color: rgb(177, 175, 175);
+    border: rgb(59, 59, 59);
+    border-style: solid;
+    border-radius: 10px;
+    color: black;
+    font-weight: bolder
+}
+.navbar{
+    float:left;
+    width:10%;
+    text-align:center;
+}
+.navbar li{
+    background-color: rgb(59, 59, 59);
+    list-style: none;
+    font-size:large;
+    padding:20px;
+    display: block; 
+    margin-top: 7px;
+    color: white;
+    font-weight: bolder;
+    }
+.navbar li:hover {
+    background-color: rgb(177, 175, 175);
+    border: rgb(59, 59, 59);
+    border-style: solid;
+    color: black;
+    font-weight: bolder;
+    }
+.backimg1 img{
+    width: 70%;
+    opacity: 1.o;
+    float: left;
+    padding:7px 20px;
+    height: 380px;
+}
+.login {
+    width: 20%;
+    float: left;
+    padding: 20px;
+    font-size: 20px;
+    background-color:rgb(59, 59, 59);
+    margin-top: 7px;
+    color: white;
+    font-weight: bolder;
+}
+.login input{
+    background-color:rgb(241, 236, 236) ;
+}
+.button  { 
+    font-weight: bolder;
+    color:white;
+    font-style: italic;
+    text-align: center;
+}
+.button :hover{
+    background-color:rgb(146, 140, 140) ;
+    color: black;
+}
+.registration {
+    background-color: rgb(146, 140, 140);
+    width: 28.5%;
+    float: unset;
+    display: block;
+    padding-left: 10px;
+    margin-top: 80px;
+    margin-left: 154px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+.social_1 img{
+    float: right;
+    margin-top: 10px;
+    margin-right: -110px;
+    height: 60px;
+    padding-left: 5px;
+
+}
+.social_2{
+   float: right;
+   height: 50px;
+   margin-right: 0px;
+   margin-top: 4px;
+   font-size: larger ;
+   padding-right: 7px;
+}
+.ad img{
+    width: 20%;
+    height: 250px;
+    float: right;
+    margin-top: 10px;
+    margin-right: -264px;
+}
+.adtext{ 
+    width: 20%;
+    float: right;
+    text-align: center;
+    margin-bottom: -5px;
+}
+.info1 {
+     background-color: cornsilk;
+     float: left;
+     width: 37%;
+     text-align: left;
+     display: block;
+     padding-left: 5px;
+     margin-left: 10px;
+     border-color:rgb(59, 59, 59);
+     border-width: 10px;
+     border-style: solid;
+     border-radius: 15px;
+}
+.info2 {
+    background-color: cornsilk;
+    float: left;
+    width: 37%;
+    padding-left: 5px;
+    display: block;
+    border-color:rgb(59, 59, 59);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    margin-left : 4px;
+
+}
+.notice{
+    display: block;
+    background-color: rgb(177, 175, 175);
+    padding-left: 10px;
+    padding-block: 20px;
+    margin-left: 270px;
+    margin-top: 40px;
+    width: 40%;
+    float: unset;
+}
+/* Styling for successfully loged in */
+
+.side_bar{
+    height: 570px;
+    background-color: turquoise;
+    width: 20%;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+.side_bar a{
+    color: black;
+}
+.side_bar img{
+    width: 100px;
+    border-radius: 20%;
+    align-items: center;
+    padding-top: 20px;
+}
+.pait_head{
+    width: 1066px;
+    float: left;
+    background-color:rgb(10, 108, 236) ;
+    margin-top: -570px;
+    padding-left: 20px;
+    margin-left: 268px;
+
+
+}
+.patient_login_doc{
+    width: 300px;
+    height: 200px;
+    margin-left: 330px;
+    background-color: rgb(255, 45, 45);
+    padding-left: 15px;
+    margin-top: -480px ;
+    padding-top: 10px;
+}
+.patient_login_hosp{
+    width: 300px;
+    height: 200px;
+    margin-left: 665px;
+    background-color: rgb(253, 157, 46);
+    padding-left: 15px;
+    margin-top: -200px ;
+    padding-top: 10px;
+}
+.patient_login_pat{
+    width: 300px;
+    height: 200px;
+    margin-left: 1000px;
+    background-color: rgb(77, 131, 7);
+    padding-left: 15px;
+    margin-top: -200px ;
+    padding-top: 10px;
+}
+.patient_login_pat img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    float: right;
+    margin-top: -350px;
+    padding-right: 4px;
+    
+
+}
+.patient_login_hosp img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    float: right;
+    margin-top: -350px;
+    padding-right: 4px;
+}
+.patient_login_doc img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    float: right;
+    padding-right: 4px;
+    margin-top: -350px;
+}
+.patient_table{
+    color: white;
+    font-weight: bolder;
+    border: 2px solid white;
+    padding: 5px;
+    text-align: left;
+    margin-left: 500px;
+    margin-top: 100px ;
+    width: 700px;
+    border-collapse: collapse;
+}
+.patient_table tr,td{
+    padding: 5px;
+    border-collapse:collapse;
+    border: 2px solid white;
+
+}
+.login_staff{
+    width: 300px;
+    height: 200px;
+    margin-left: 330px;
+    background-color: rgb(154, 245, 35);
+    margin-top: 40px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.login_staff img{
+    width: 60px;
+    height: 60px;
+    float: right;
+    border-radius: 50%;
+    margin-top: -110px;
+}
+.login_room{
+    width: 300px;
+    height: 200px;
+    margin-left: 665px;
+    background-color: rgb(43, 250, 95);
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-top: -200px;
+    padding-right: 4px;
+}
+.login_room img{
+    width: 60px;
+    height: 60px;
+    float: right;
+    border-radius: 50%;
+    margin-top: -110px;
+    padding-right: 4px;
+}
+.login_death{
+    width: 300px;
+    height: 200px;
+    margin-left: 1000px;
+    background-color: rgb(36, 181, 238);
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-top: -200px;
+}
+.login_death img{
+    width: 60px;
+    height: 60px;
+    float: right;
+    border-radius: 50%;
+    margin-top: -110px;
+    padding-right: 4px;
+}
+/* CSS for patient appointment */
+
+
+.upcomming_appt{
+    color: white;
+    font-weight: bolder;
+    border: 2px solid white;
+    padding: 5px;
+    text-align: left;
+    margin-left: 400px;
+    margin-top: -550px ;
+    width: 700px;
+    border-collapse: collapse;
+}
+.upcomming_appt tr, td{
+    padding: 5px;
+    border-collapse:collapse;
+    border: 2px solid white; 
+}
+.appt_complected{
+    color: white;
+    font-weight: bolder;
+    border: 2px solid white;
+    padding: 5px;
+    text-align: left;
+    margin-left: 400px;
+    margin-top: 30px ;
+    width: 700px;
+    border-collapse: collapse;
+}
+.appt_complected tr,td{
+    padding: 5px;
+    border-collapse:collapse;
+    border: 2px solid white;
+}
+.all_comp_appt{
+    margin-left: 400px ;
+}
+.appt_button{
+    margin-left: 400px;
+    color: white;
+    border: 3px solid white;
+    padding: 20px 10px;
+}
+.appt_button label{
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+/* css for login interface */
+
+.login_interface{
+    background-color:rgb(59, 59, 59) ;
+    margin: auto;
+    align-items: center;
+    width: 40%;
+    padding: 20px 20px;
+    margin-top: 100px;
+    font-weight: bolder;
+    color: white;
+    background-image: linear-gradient(180deg, black, rgb(59, 59, 59));
+}
+.login_form input{
+    height: 40px;
+	width: 350px;
+	padding: 0 5px;
+	font-size: 18px;
+	outline: none;
+	border: 1px solid silver;
+    border-radius: 15px;
+}
+.login_form button{
+    background-color: black;
+    padding: 10px 40px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+.login_form button:hover{
+    background-color: rgb(177, 175, 175);
+    border-style: solid;
+    border-radius: 15px;
+    border-color: black;
+    color: black;
+
+}
+

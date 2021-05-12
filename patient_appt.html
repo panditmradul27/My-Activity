@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+             A{text-decoration: none;} 
+            body {background-color: black;}
+         * {
+                box-sizing: border-box;
+            }
+        </style>
+        <link rel="stylesheet" href="first.css">
+        <title>My health</title>
+    </head>
+ <body>
+     <div class="icon">
+         <img src="icon.png" >
+     </div>
+     <div class="num">
+        <p><b>Emercency no<br>Toll free:-107</b></p>
+     </div>
+    <div class="head2">
+        <h3>India's largest patient record platform and services </h3>
+    </div>
+    <div class="side_bar">
+        <img src="patient-icon.png">
+        <h4>Patient name</h4>
+        <hr>
+        <a href="patitent_login.html"><h4>Dashboard</h4></a>
+        <hr>
+        <a href="patient_appt.html"><h4>Appointments</h4></a>
+        <hr>
+        <a href="#patient_rep.html"><h4>Reports</h4></a>
+        <hr>
+        <a href="#patient_host"><h4>Hospitals</h4></a>
+        <hr>
+        <a href="#available_doc.html"><h4>Doctors</h4></a>
+        <hr>
+        <a href="first.htm"><h4>Log Out</h4></a>
+    </div>
+    <table class="upcomming_appt">
+        <caption>Upcomming appointmnet-</caption>
+        <tr>
+            <td>Date</td>
+            <td>Time</td>
+            <td>Doctor</td>
+            <td>Hospital</td>
+            <td>Preciption </td>
+            <td>Mobile No</td>
+            <td>Status</td>
+        </tr>
+        <tr>
+            <td>10/05/2021</td>
+            <td>10:30</td>
+            <td>Dr. Mishra</td>
+            <td>sangivani</td>
+            <td>view </td>
+            <td>8756547895</td>
+            <td>pending..</td>
+        </tr>
+        <tr>
+            <td>10/05/2021</td>
+            <td>10:30</td>
+            <td>Dr. Mishra</td>
+            <td>sangivani</td>
+            <td>view </td>
+            <td>8756547895</td>
+            <td>pending..</td>
+        </tr>
+        <tr>
+            <td>10/05/2021</td>
+            <td>10:30</td>
+            <td>Dr. Mishra</td>
+            <td>sangivani</td>
+            <td>view </td>
+            <td>8756547895</td>
+            <td>pending..</td>
+        </tr>
+    </table>
+    <table class="appt_complected">
+        <caption>Appointments Complected-</caption>
+        <tr>
+            <td>Date</td>
+            <td>Time</td>
+            <td>Doctor</td>
+            <td>Hospital</td>
+            <td>Preciption </td>
+            <td>Mobile No</td>
+            <td>complected</td>
+        </tr>
+        <tr>
+            <td>10/05/2021</td>
+            <td>10:30</td>
+            <td>Dr. Mishra</td>
+            <td>sangivani</td>
+            <td>view </td>
+            <td>8756547895</td>
+            <td>complected</td>
+        </tr>
+        <tr>
+            <td>10/05/2021</td>
+            <td>10:30</td>
+            <td>Dr. Mishra</td>
+            <td>sangivani</td>
+            <td>view </td>
+            <td>8756547895</td>
+            <td>complected</td>
+        </tr>
+        <tr>
+            <td>10/05/2021</td>
+            <td>10:30</td>
+            <td>Dr. Mishra</td>
+            <td>sangivani</td>
+            <td>view </td>
+            <td>8756547895</td>
+            <td>complected</td>
+        </tr>
+    </table>
+    <button class="all_comp_appt">View all complected Appointments</button>
+
+    <h2 class="book_appt" style="margin-left: 400px; color: white;">Book new appointmnet</h2>
+    <div class="appt_button">
+        <label for="city">select city</label>
+        <select id="city" name="city">
+            <option value="bhopal">Bhopal</option>
+            <option value="indore">Indore</option>
+            <option value="ujjain">Ujjain</option>
+            <option value="khandwa">Khandwa</option>
+            <option value="khargone">Khargone</option>
+        </select>
+        <label for="hospital">Hospital</label>
+        <select id="hospital" name="hospital">
+            <option value="roshni">roshni</option>
+            <option value="SNS">SNS</option>
+            <option value="AIIMS">AIIMS</option>
+            <option value="CHL">CHL</option>
+            <option value="purnima">Purnima</option>
+        </select>
+        <label for="type">Specilization</label>
+        <select id="type" name="type">
+            <option value="select">Select Specilization</option>
+
+        </select>
+        <label for="doctor">Doctor</label>
+        <select id="doctor" name="doctor">
+            <option value="select">Select doctor</option>
+
+        </select><br><br>
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date">
+        <label for="slot">Slot</label>
+        <select id="slot" name="slot">
+            <option value="slot">Select slot</option>
+            <option value="morning">Morning</option>
+            <option value="Noon">Noon</option>
+            <option value="evening">Evening</option>
+        </select>
+        <label for="problem">Plrobel statment</label>
+        <textarea id="problem" name="problem" rows="1" cols="40"></textarea><br><br><br>
+        <button type="submit" style="padding: 5px 10px;margin-left: 10px;">Book now</button>
+
+    </div>
+
+
+ </body>
+</html>
